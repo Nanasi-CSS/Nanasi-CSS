@@ -7,7 +7,6 @@ Nanasi CSS is a responsive and pure CSS framework based on Flexbox. Made with lo
 
 [![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
 
-[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
 
 ## Progress
 
