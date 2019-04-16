@@ -5,7 +5,7 @@ Nanasi CSS is a responsive and pure CSS framework based on Flexbox. Made with ‚ù
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
 
-<img src="https://raw.githubusercontent.com/gxvr/Nanasi-CSS/master/docs/images/nanasi-logo.png" alt="Nanasi: Responsive and pure CSS" style="max-width:100%;" width="600" height="315">
+<img src="https://raw.githubusercontent.com/gxvr/Nanasi-CSS/master/docs/images/nanasi-logo.png" alt="Nanasi: Responsive and pure CSS" style="max-width:100%;" width="400" height="252">
 
 ## Progress
 
