@@ -7,7 +7,7 @@ Nanasi CSS is a responsive and pure CSS framework based on Flexbox. Made with ‚ù
 
 ## Progress
 
-Nanasi CSS is constantly in development right now, but you can check out the components.
+Nanasi CSS is in development right now fam, Wanna check out the componets? sure!! .
 
 ## Features
 
