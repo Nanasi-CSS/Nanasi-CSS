@@ -1,5 +1,6 @@
-# Nanasi.CSS
-Nanasi.CSS is a responsive and pure CSS framework based on Flexbox. Made with ❤️ in Tanzania.
+
+<h1 align="center">Nanasi.CSS</h1>
+<p align="center">Nanasi.CSS is a responsive and pure CSS framework based on Flexbox. Made with ❤️ in Tanzania.</p>
 
 ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
