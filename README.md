@@ -4,7 +4,6 @@
 
 
 <p align="center">
-  <a href="https://travis-ci.org/Spiderpig86/Cirrus"><img src="https://img.shields.io/github/license/Naereen/StrapDown.js.svg"></a>
   <a href="#"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/Spiderpig86/Cirrus.svg" alt="MIT License"></a>
 </p>
