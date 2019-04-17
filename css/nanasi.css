@@ -28,6 +28,8 @@
     --col-prm: #ee1144;
     --col-sec: #ffaa44;
     --col-acc: #f4f4f4;
+    --col-ns: #ffb300;
+    --col-alt: #ff6008;
 }
 
 
@@ -369,26 +371,26 @@ Buttons
 }
 
 .btn:active {
-    -webkit-transform: scale(.98);
-    -moz-transform: translate(-50%, -50%) scale(.98);
-    -o-transform: translate(-50%, -50%) scale(.98);
-    -ms-transform: translate(-50%, -50%) scale(.98);
-    transform: scale(.98);
+    -webkit-transform: scale(.99);
+    -moz-transform: translate(-50%, -50%) scale(.99);
+    -o-transform: translate(-50%, -50%) scale(.99);
+    -ms-transform: translate(-50%, -50%) scale(.99);
+    transform: scale(.99);
 }
 
 .ns-btn {
     color: #ffffff;
-    background-color: #ff6008;
+    background-color: var(--col-ns);
 }
 
 .ns-btn:hover {
     color: #ffffff;
-    background-color: #ef5a07;
+    background-color: #f4ab00;
 }
 
 .ns-btn-ghost {
-    border: 2px solid #ff6008;
-    color: #ff6008;
+    border: 2px solid var(--col-ns);
+    color: var(--col-ns);
     background-color: transparent;
 }
 
@@ -401,7 +403,7 @@ Buttons
 .ns-btn-disabled {
     cursor: default;
     opacity: 0.4;
-    background-color: #ff6008;
+    background-color: var(--col-ns);
     color: #ffffff;
 }
 
@@ -421,6 +423,7 @@ Buttons
 .lg-btn {
     width: 100%;
 }
+
 .shadow {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.06);
 }
@@ -481,7 +484,7 @@ Input
 .ns-input:focus,
 .ns-textarea:focus,
 .ns-select:focus {
-    border-color: #ff6008;
+    border-color: var(--col-ns);
     outline: 0;
 }
 
@@ -540,13 +543,13 @@ Radio
 }
 
 .radio input[type="radio"]:checked + .radio-label:before {
-    background-color: #ff6008;
+    background-color: var(--col-ns);
     box-shadow: inset 0 0 0 4px #f4f4f4;
 }
 
 .radio input[type="radio"]:focus + .radio-label:before {
     outline: none;
-    border-color: #ff6008;
+    border-color: var(--col-ns);
 }
 
 .radio input[type="radio"]:disabled + .radio-label:before {
@@ -593,7 +596,7 @@ Pagination
 .pagination a:hover,
 .pagination a.selected {
     color: #fff;
-    background-color: #ff6d00;
+    background-color: var(--col-ns);
 }
 
 .pagination.small a {
@@ -643,7 +646,7 @@ Preloader
     display: inline-block;
     height: 12px;
     width: 12px;
-    fill: #F96D38;
+    fill: var(--col-ns);
     opacity: 0;
     animation: seq-preloader 1.25s infinite;
 }
@@ -664,7 +667,7 @@ Preloader
 .ns-preload-indicator-fallback .ns-preload-circle {
     width: 8px;
     height: 8px;
-    background-color: #F96D38;
+    background-color: var(--col-ns);
     border-radius: 100%;
     opacity: 1;
     display: inline-block;
