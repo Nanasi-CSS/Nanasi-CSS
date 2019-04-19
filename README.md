@@ -13,7 +13,7 @@
 
 ## Progress
 
-Nanasi.CSS is in development right now fam, Wanna check out the componets? sure!! .
+Nanasi.CSS is in development right now fam, Wanna check out the components? sure!! .
 
 ## Features
 
