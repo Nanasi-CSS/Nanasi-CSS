@@ -8,12 +8,12 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/Spiderpig86/Cirrus.svg" alt="MIT License"></a>
 </p>
 
-<a align="center"> <img src="https://raw.githubusercontent.com/gxvr/Nanasi-CSS/master/docs/images/nanasi-logo.png" alt="Nanasi: Responsive and pure CSS" style="max-width:100%;"></a>
+<a align="center" href="https://gxvr.github.io/Nanasi-CSS/"> <img src="https://raw.githubusercontent.com/gxvr/Nanasi-CSS/master/docs/images/nanasi-logo.png" alt="Nanasi: Responsive and pure CSS" style="max-width:100%;"></a>
 
 
 ## Progress
 
-Nanasi.CSS is in development right now fam, Wanna check out the components? sure!! .
+Nanasi.CSS is in development right now, Wanna check out the components? sure!! .
 
 ## Features
 
