@@ -24,7 +24,7 @@
 :root {
     --box-width: 100%;
     --box-max-width: 80rem;
-    --grid-gap: 1rem;
+    --grid-gap: 1.5rem;
     --font: 'Montserrat';
     --col-bg: #f4f4f4;
     --col-fg: #222222;
@@ -61,7 +61,21 @@ body {
 a:link,
 a:hover {
     text-decoration: none;
+    font-size: 14px;
+
+
 }
+
+.ns-link:active {
+    color: darkslategray;
+}
+
+
+.ns-link:active {
+    color: #2a4040;
+}
+
+
 
 .wrapper,
 .container {
@@ -148,10 +162,12 @@ Grid
     justify-content: flex-end;
 }
 
+
+
 .column {
     display: block;
-    flex: 1 1 auto;
     max-width: 100%;
+    flex: 1 1 auto;
     margin: var(--grid-gap);
 }
 
@@ -285,6 +301,7 @@ Grid
     display: flex;
 }
 
+
 /* 
 ========================================== 
 Typography 
@@ -303,7 +320,6 @@ p {
 hr {
     width: 70%;
     border: 0;
-    margin: 2rem auto;
 }
 
 a {
@@ -319,7 +335,7 @@ h6 {
     font-weight: normal;
     letter-spacing: -.1rem;
     margin-bottom: 1.0rem;
-    margin-top: 0;
+    margin-top: 1.0rem;
 }
 
 h1 {
@@ -344,20 +360,24 @@ h4 {
 }
 
 h5 {
-    font-size:2rem;
+    font-size: 2rem;
     letter-spacing: -.05rem;
     line-height: 1.5;
 }
 
 h6 {
-    font-size:1.4rem;
+    font-size: 1.4rem;
     letter-spacing: 0;
     line-height: 1.4;
 }
 
-.ns-p{
+.ns-p {
     font-size: 18px;
     line-height: 30px;
+}
+
+.ns-link {
+    text-decoration: none;
 }
 
 .point {
@@ -373,15 +393,15 @@ h6 {
     color: var(--col-mtd);
 }
 
-.ns-center {
+.center {
     text-align: center;
 }
 
-.ns-left {
+.left {
     text-align: left;
 }
 
-.ns-right {
+.right {
     text-align: right;
 }
 
@@ -389,13 +409,19 @@ h6 {
     text-align: justify;
 }
 
-hr {
-  width: 70%; 
-  border: 0;
-    border-top: 0.1rem solid var(--col-shd);
-    margin: 2rem auto;
-  margin-bottom: 4rem;
+.is-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+hr {
+    width: 70%;
+    border: 0;
+    border-top: 0.1rem solid var(--col-shd);
+}
+
+
 
 
 
@@ -478,6 +504,54 @@ Buttons
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.06);
 }
 
+.load {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    border-top: 5px solid transparent;
+    -webkit-animation: load-animate infinite linear 1s;
+    animation: load-animate infinite linear 1s;
+}
+
+
+@-webkit-keyframes load-animate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        opacity: 0.35;
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load-animate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        opacity: 0.35;
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
 
 /* 
 ========================================== 
@@ -505,7 +579,8 @@ label,
 legend {
     display: block;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
 }
 
 
@@ -527,7 +602,6 @@ Input
     font-family: 'HK Grotesk', sans-serif;
     color: #656565;
     background-color: #fff0;
-    margin: 10px 10px 15px 0;
 }
 
 .ns-input:focus,
@@ -626,28 +700,7 @@ Card
     float: left;
 }
 
-@media screen and (min-width: 42em) and (max-width: 60em) {
-    .cards_item {
-        width: 50%;
-    }
-
-    .no-flexbox .cards_item:nth-child(2n+1) {
-        clear: both;
-    }
-}
-
-@media screen and (min-width: 60em) {
-    .cards_item {
-        width: 30%;
-    }
-
-    .no-flexbox .cards_item:nth-child(3n+1) {
-        clear: both;
-    }
-}
-
 .card {
-    display: flex;
     flex-direction: column;
     background-color: #fff;
     border: 0 solid #eee;
@@ -666,7 +719,6 @@ Card
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-    border-bottom: 1px solid #eee;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 10px;
@@ -677,6 +729,11 @@ Card
     line-height: 27px;
 }
 
+/*border-top*/
+
+.btop {
+    border-top: 4px solid var(--col-ns);
+}
 
 
 /* 
@@ -820,5 +877,31 @@ Mobile
     .container {
         margin-left: 20px;
         margin-right: 20px;
+    }
+}
+
+
+/*Cards*/
+@media screen and (min-width: 42em) and (max-width: 60em) {
+
+
+    .card {
+        width: 50%;
+    }
+
+    .no-flexbox .card:nth-child(2n+1) {
+        clear: both;
+    }
+
+}
+
+@media screen and (min-width: 60em) {
+
+    .card {
+        width: 35%;
+    }
+
+    .no-flexbox .card:nth-child(3n+1) {
+        clear: both;
     }
 }
