@@ -318,7 +318,7 @@ p {
 }
 
 hr {
-    width: 70%;
+    /*! width: 70%; */
     border: 0;
 }
 
@@ -419,6 +419,8 @@ hr {
     width: 70%;
     border: 0;
     border-top: 0.1rem solid var(--col-shd);
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
@@ -513,6 +515,8 @@ Buttons
     border-top: 5px solid transparent;
     -webkit-animation: load-animate infinite linear 1s;
     animation: load-animate infinite linear 1s;
+    margin-top: 15px;
+    text-align: center;
 }
 
 
