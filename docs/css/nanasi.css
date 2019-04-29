@@ -739,6 +739,43 @@ Card
     border-top: 4px solid var(--col-ns);
 }
 
+/* 
+========================================== 
+Pin
+========================================== 
+*/
+
+.pin {
+    background: #DEDBDF;
+    border-radius: 16px;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    width: 162px;
+
+}
+
+.pin-contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    border-radius: 12px;
+    height: 24px;
+    left: 6px;
+    position: relative;
+    top: 4px;
+    width: 24px;
+}
+
+.name {
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 10px;
+}
+
+
 
 /* 
 ========================================== 
