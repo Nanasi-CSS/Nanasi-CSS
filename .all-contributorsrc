@@ -1,0 +1,32 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "alphaolomi",
+      "name": "Alpha Olomi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10551599?v=4",
+      "profile": "https://alphaolomi.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "gxvr",
+      "name": "Geofrey (Xvr) Kivaru",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7034586?v=4",
+      "profile": "https://gxvr.netlify.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Nanasi-CSS",
+  "projectOwner": "gxvr",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
