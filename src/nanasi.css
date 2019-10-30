@@ -18,7 +18,6 @@
 // ----------------------------
 */
 
-
 @import url('../fonts/transfonter.org-20190321-003438/stylesheet.css');
 
 :root {
@@ -37,14 +36,13 @@
     --col-alt: #ff6008;
 }
 
-
 * {
     box-sizing: border-box;
 }
 
 *:before,
 *:after {
-    content: "";
+    content: '';
     display: table;
 }
 
@@ -62,20 +60,15 @@ a:link,
 a:hover {
     text-decoration: none;
     font-size: 14px;
-
-
 }
 
 .ns-link:active {
     color: darkslategray;
 }
 
-
 .ns-link:active {
     color: #2a4040;
 }
-
-
 
 .wrapper,
 .container {
@@ -95,7 +88,6 @@ a:hover {
     text-align: center;
 }
 
-
 /* 
 ========================================== 
 Grid 
@@ -106,7 +98,6 @@ Grid
     background-color: var(--col-shd);
     padding: 1.2rem;
 }
-
 
 .row {
     display: flex;
@@ -161,8 +152,6 @@ Grid
 .row-h-right {
     justify-content: flex-end;
 }
-
-
 
 .column {
     display: block;
@@ -279,7 +268,7 @@ Grid
     margin-left: 90%;
 }
 
-@media only screen and (max-width: 40.0rem) {
+@media only screen and (max-width: 40rem) {
     .box {
         max-width: 100%;
     }
@@ -300,7 +289,6 @@ Grid
 .flex {
     display: flex;
 }
-
 
 /* 
 ========================================== 
@@ -333,9 +321,9 @@ h4,
 h5,
 h6 {
     font-weight: normal;
-    letter-spacing: -.1rem;
-    margin-bottom: 1.0rem;
-    margin-top: 1.0rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 h1 {
@@ -355,13 +343,13 @@ h3 {
 
 h4 {
     font-size: 2.4rem;
-    letter-spacing: -.08rem;
+    letter-spacing: -0.08rem;
     line-height: 1.35;
 }
 
 h5 {
     font-size: 2rem;
-    letter-spacing: -.05rem;
+    letter-spacing: -0.05rem;
     line-height: 1.5;
 }
 
@@ -385,7 +373,7 @@ h6 {
 }
 
 .point::before {
-    content: "| ";
+    content: '| ';
     position: absolute;
     left: -1.6rem;
     top: -0.1rem;
@@ -423,11 +411,6 @@ hr {
     margin-top: 30px;
 }
 
-
-
-
-
-
 /* 
 ========================================== 
 Buttons
@@ -445,15 +428,15 @@ Buttons
     font-weight: 700;
     letter-spacing: 1px;
     border-radius: 5px;
-    padding: 0 2.0rem;
+    padding: 0 2rem;
 }
 
 .btn:active {
-    -webkit-transform: scale(.99);
-    -moz-transform: translate(-50%, -50%) scale(.99);
-    -o-transform: translate(-50%, -50%) scale(.99);
-    -ms-transform: translate(-50%, -50%) scale(.99);
-    transform: scale(.99);
+    -webkit-transform: scale(0.99);
+    -moz-transform: translate(-50%, -50%) scale(0.99);
+    -o-transform: translate(-50%, -50%) scale(0.99);
+    -ms-transform: translate(-50%, -50%) scale(0.99);
+    transform: scale(0.99);
 }
 
 .ns-btn {
@@ -493,7 +476,6 @@ Buttons
     border-radius: 50px;
 }
 
-
 .sm-btn {
     line-height: 40px;
 }
@@ -518,7 +500,6 @@ Buttons
     margin-top: 15px;
     text-align: center;
 }
-
 
 @-webkit-keyframes load-animate {
     0% {
@@ -556,7 +537,6 @@ Buttons
     }
 }
 
-
 /* 
 ========================================== 
 Form 
@@ -587,7 +567,6 @@ legend {
     margin-top: 0.8rem;
 }
 
-
 /* 
 ========================================== 
 Input 
@@ -616,8 +595,9 @@ Input
 }
 
 select {
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%23aaaaaa" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>') center right no-repeat;
-    padding-right: 3.0rem;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%23aaaaaa" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>')
+        center right no-repeat;
+    padding-right: 3rem;
 }
 
 select:focus {
@@ -633,9 +613,8 @@ select:focus {
 
 textarea {
     min-width: 100%;
-    min-height: 8.0rem;
+    min-height: 8rem;
 }
-
 
 /* 
 ========================================== 
@@ -648,12 +627,12 @@ Radio
     margin-bottom: 15px;
 }
 
-.radio input[type="radio"] {
+.radio input[type='radio'] {
     position: absolute;
     opacity: 0;
 }
 
-.radio input[type="radio"] + .radio-label:before {
+.radio input[type='radio'] + .radio-label:before {
     content: '';
     border-radius: 100%;
     border: 1px solid #e3e1e1;
@@ -669,26 +648,25 @@ Radio
     transition: all 250ms ease;
 }
 
-.radio input[type="radio"]:checked + .radio-label:before {
+.radio input[type='radio']:checked + .radio-label:before {
     background-color: var(--col-ns);
     box-shadow: inset 0 0 0 4px #f4f4f4;
 }
 
-.radio input[type="radio"]:focus + .radio-label:before {
+.radio input[type='radio']:focus + .radio-label:before {
     outline: none;
     border-color: var(--col-ns);
 }
 
-.radio input[type="radio"]:disabled + .radio-label:before {
+.radio input[type='radio']:disabled + .radio-label:before {
     box-shadow: inset 0 0 0 4px #f4f4f4;
     border-color: #e3e1e1;
     background: #e3e1e1;
 }
 
-.radio input[type="radio"] + .radio-label:empty:before {
+.radio input[type='radio'] + .radio-label:empty:before {
     margin-right: 0;
 }
-
 
 /* 
 ========================================== 
@@ -709,7 +687,7 @@ Card
     background-color: #fff;
     border: 0 solid #eee;
     border-radius: 0;
-    box-shadow: -1px 1px 2px rgba(225, 225, 225, 0.3), 1px 1px 6px rgba(0, 0, 0, .1);
+    box-shadow: -1px 1px 2px rgba(225, 225, 225, 0.3), 1px 1px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card_image img {
@@ -717,7 +695,6 @@ Card
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-
 
 .card_content {
     display: flex;
@@ -746,13 +723,12 @@ Pin
 */
 
 .pin {
-    background: #DEDBDF;
+    background: #dedbdf;
     border-radius: 16px;
     height: 32px;
     overflow: hidden;
     position: relative;
     width: 162px;
-
 }
 
 .pin-contents {
@@ -775,8 +751,6 @@ Pin
     margin-left: 10px;
 }
 
-
-
 /* 
 ========================================== 
 Pagination
@@ -793,7 +767,7 @@ Pagination
     height: 45px;
     background-color: transparent;
     color: #222;
-    border: 1px solid rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     display: inline-block;
     vertical-align: middle;
     line-height: 30px;
@@ -802,8 +776,7 @@ Pagination
     margin: 2px;
     transition: all 0.2s linear;
     padding: 7px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .1);
-
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .pagination a:hover,
@@ -826,7 +799,6 @@ Pagination
     line-height: 36px;
 }
 
-
 /* 
 ========================================== 
 Preloader
@@ -844,7 +816,7 @@ Preloader
 .ns-preloader.ns-preloaded {
     opacity: 0;
     visibility: hidden;
-    transition: visibility 0s .5s, opacity .5s;
+    transition: visibility 0s 0.5s, opacity 0.5s;
 }
 
 .ns-preload-indicator {
@@ -865,11 +837,11 @@ Preloader
 }
 
 .ns-preload-circle-2 {
-    animation-delay: .15s;
+    animation-delay: 0.15s;
 }
 
 .ns-preload-circle-3 {
-    animation-delay: .3s;
+    animation-delay: 0.3s;
 }
 
 .seq-preload-indicator-fallback {
@@ -914,35 +886,30 @@ Preloader
 Mobile
 ========================================== 
 */
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
     .container {
         margin-left: 20px;
         margin-right: 20px;
     }
 }
 
-
 /*Cards*/
 @media screen and (min-width: 42em) and (max-width: 60em) {
-
-
     .card {
         width: 50%;
     }
 
-    .no-flexbox .card:nth-child(2n+1) {
+    .no-flexbox .card:nth-child(2n + 1) {
         clear: both;
     }
-
 }
 
 @media screen and (min-width: 60em) {
-
     .card {
         width: 35%;
     }
 
-    .no-flexbox .card:nth-child(3n+1) {
+    .no-flexbox .card:nth-child(3n + 1) {
         clear: both;
     }
 }
