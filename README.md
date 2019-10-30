@@ -35,6 +35,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://alphaolomi.com"><img src="https://avatars0.githubusercontent.com/u/10551599?v=4" width="100px;" alt="Alpha Olomi"/><br /><sub><b>Alpha Olomi</b></sub></a><br /><a href="https://github.com/gxvr/Nanasi-CSS/commits?author=alphaolomi" title="Code">💻</a></td>
+    <td align="center"><a href="https://gxvr.netlify.com"><img src="https://avatars1.githubusercontent.com/u/7034586?v=4" width="100px;" alt="Geofrey (Xvr) Kivaru"/><br /><sub><b>Geofrey (Xvr) Kivaru</b></sub></a><br /><a href="https://github.com/gxvr/Nanasi-CSS/commits?author=gxvr" title="Code">💻</a></td>
   </tr>
 </table>
 
