@@ -1,22 +1,26 @@
 {
-  "name": "nanasi-css",
-  "version": "1.0.0",
-  "description": "Nanasi.CSS is a responsive and pure CSS framework based on Flexbox. Made with ❤️ in Tanzania.",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alphaolomi/Nanasi-CSS.git"
-  },
-  "keywords": [],
-  "author": "Geofrey Xvr",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alphaolomi/Nanasi-CSS/issues"
-  },
-  "homepage": "https://gxvr.github.io/Nanasi-CSS/"
+    "name": "nanasi-css",
+    "version": "1.0.0",
+    "description": "Nanasi.CSS is a responsive and pure CSS framework based on Flexbox. Made with ❤️ in Tanzania.",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "lint": "prettier --write --only-changed \"src/*.css\"",
+        "test": "echo \"Error: no test specified\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alphaolomi/Nanasi-CSS.git"
+    },
+    "keywords": [],
+    "author": "Geofrey Xvr",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/alphaolomi/Nanasi-CSS/issues"
+    },
+    "homepage": "https://gxvr.github.io/Nanasi-CSS/",
+    "devDependencies": {
+        "prettier": "1.18.2"
+    }
 }
