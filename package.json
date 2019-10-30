@@ -6,7 +6,14 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "build": "yarn run build-clean && yarn run build-css",
+    "build-css": "postcss --use autoprefixer -o ./src/nanasi.css ./dist/nanasi.css",
+    "build-clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3",
+    "rimraf": "^2.7.1"
   },
   "repository": {
     "type": "git",
