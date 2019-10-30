@@ -33,11 +33,6 @@ Pull requests are welcome. Please see [CONTRIBUTING](./.github/CONTRIBUTING.md) 
 
 If you discover any security related issues, please email [geofreyxvr@gmail.com](mailto:eofreyxvr@gmail.com) instead of using the issue tracker.
 
-## Credits
-
-- **Geofrey Xvr** [@gxvr](https://github.com/gxvr)
-- [All Contributors][link-contributors]
-
 ## License
 
 The MIT License. Please see [License File](LICENSE) for more information.
