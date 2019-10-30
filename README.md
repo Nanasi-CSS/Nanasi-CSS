@@ -1,3 +1,4 @@
+
 <h1 align="center">Nanasi.CSS</h1>
 <p align="center">Nanasi.CSS is a responsive and pure CSS framework based on Flexbox. Made with ❤️ in Tanzania.</p>
 
@@ -25,6 +26,22 @@ Nanasi.CSS is in development right now, Wanna check out the components? sure!! .
 
 In development v.0.1.0
 
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://alphaolomi.com"><img src="https://avatars0.githubusercontent.com/u/10551599?v=4" width="100px;" alt="Alpha Olomi"/><br /><sub><b>Alpha Olomi</b></sub></a><br /><a href="https://github.com/gxvr/Nanasi-CSS/commits?author=alphaolomi" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+=======
 ## Contributing
 
 Pull requests are welcome. Please see [CONTRIBUTING](./.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md) for details.
@@ -39,3 +56,4 @@ The MIT License. Please see [License File](LICENSE) for more information.
 
 [link-author]: https://github.com/alphaolomi
 [link-contributors]: ../../contributors
+
