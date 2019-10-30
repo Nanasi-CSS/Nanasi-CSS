@@ -12,11 +12,24 @@
     "type": "git",
     "url": "git+https://github.com/alphaolomi/Nanasi-CSS.git"
   },
-  "keywords": [],
+  "main": "src/nanasi.css",
+  "unpkg": "dist/nanasi.css",
+  "style": "dist/nanasi.min.css",
+  "keywords": [
+    "css",
+    "sass",
+    "flexbox",
+    "responsive",
+    "framework"
+  ],
   "author": "Geofrey Xvr",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alphaolomi/Nanasi-CSS/issues"
   },
-  "homepage": "https://gxvr.github.io/Nanasi-CSS/"
+  "homepage": "https://gxvr.github.io/Nanasi-CSS/",
+  "files": [
+    "LICENSE",
+    "README.md"
+  ]
 }
