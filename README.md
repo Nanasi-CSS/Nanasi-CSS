@@ -13,7 +13,7 @@
 
 ## Progress
 
-New update soon!! .
+New version 1.2 soon!! .
 
 ## Features
 
