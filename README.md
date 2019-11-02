@@ -62,7 +62,7 @@ Thanks goes to these wonderful people:
 
 ## Contributing
 
-Pull requests are welcome. Please see [CONTRIBUTING](./.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md) for details.
+Pull requests are welcome. Please see [CONTRIBUTING](./.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md) for details. NOTE: *Every line of code should appear to be written by a single person, no matter the number of contributors.*
 
 
 ## Security
