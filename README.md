@@ -33,7 +33,7 @@ Nanasi CSS uses a 12 column flex box layout. Simply, set up your html file in th
   </div>
 <body>
 ```
-Inside the `<div>` with `container` class you can have your own classes.
+Inside the `container` and `column` classes you can add your own custom classes.
 
 [Check our responsive demo here](https://gxvr.github.io/Nanasi-CSS/login_example.html)
 
