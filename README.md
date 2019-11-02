@@ -22,10 +22,6 @@ New version 1.2 soon!! .
 - Pure CSS
 - Easy to extend & customize
 
-## Status
-
-In development v.1.0
-
 ## Usage
 Nanasi CSS uses a 12 column flex box layout. Simply, set up your html file in the below format:
 ```
