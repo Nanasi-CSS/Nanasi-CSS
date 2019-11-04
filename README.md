@@ -3,13 +3,13 @@
 <p align="center">Nanasi.CSS is a responsive and pure CSS framework based on Flexbox. Made with ❤️ in Tanzania.</p>
 
 <p align="center">
+  <a href="#badge">
+    <img src="https://img.shields.io/badge/made%20in-tanzania-green?style=for-the-badge" alt="made in tanzania">
+    </a>
   <a href="https://github.com/gxvr/Nanasi-CSS/"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/Spiderpig86/Cirrus.svg?style=flat-square" alt="MIT License"></a>
    <a href="#badge">
     <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>
-   <a href="#badge">
-    <img src="https://img.shields.io/badge/made%20in-tanzania-green?style=for-the-badge" alt="made in tanzania">
-    </a>
 </p>
 
 <a align="center" href="https://gxvr.github.io/Nanasi-CSS/"> <img src="https://raw.githubusercontent.com/gxvr/Nanasi-CSS/master/docs/images/nanasi-logo.png" alt="Nanasi: Responsive and pure CSS" style="max-width:100%;"></a>
