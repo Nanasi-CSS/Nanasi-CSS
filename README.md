@@ -1,6 +1,6 @@
 
 <h1 align="center">Nanasi.CSS</h1>
-<p align="center">Nanasi.CSS is a responsive and pure CSS framework you can use as a basis for creating web sites or web applications. Made with ❤️ in Tanzania.</p>
+<p align="center">Nanasi.CSS is a responsive and pure CSS framework you can use as a basis for creating web sites or web applications.<br/>Made with ❤️ in Tanzania.</p>
 
 <p align="center">
   <a href="#badge">
