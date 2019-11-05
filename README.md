@@ -1,6 +1,6 @@
 
 <h1 align="center">Nanasi.CSS</h1>
-<p align="center">Nanasi.CSS is a responsive and pure CSS framework based on Flexbox. Made with ❤️ in Tanzania.</p>
+<p align="center">Nanasi.CSS is a responsive and pure CSS framework you can use as a basis for creating web sites or web applications. Made with ❤️ in Tanzania.</p>
 
 <p align="center">
   <a href="#badge">
@@ -16,15 +16,18 @@
 
 ## Progress 🚀
 
-New version 1.2 soon!! .
+New version 1.2 coming soon!! .
 
 ## Features
 
 - Small and simple
 - Responsive and fluid
 - Pure CSS
+- Based on Flexbox
 - Easy to extend & customize
-- Based on BEM (Block, Element, Modifier) 
+- BEM ready (Block, Element, Modifier) 
+- No headaches 😉
+
 
 ## Usage
 Nanasi CSS uses a 12 column flex box layout. Simply, set up your html file in the below format:
@@ -39,7 +42,7 @@ Nanasi CSS uses a 12 column flex box layout. Simply, set up your html file in th
 ```
 Inside the `container` and `column` classes you can add your own custom classes.
 
-[Check our responsive demo here](https://gxvr.github.io/Nanasi-CSS/login_example.html)
+[Check our responsive demo here](https://gxvr.github.io/Nanasi-CSS/docs/components/login.html)
 
 
 ## Browser Support

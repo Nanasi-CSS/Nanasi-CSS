@@ -3,23 +3,18 @@
 //  | | | | | | | | | | | | | |
 //  Nanasi CSS framework
 //  
-//  Author: Geofrey Xvr
-//  Website: https://gxvr.netlify.com
-//  Email: geofreyxvr@gmail.com
+//  Author: Geofrey Xvr & Alpha Olomi
 //
 //  Features:
 //  - Small and simple
 //  - Responsive and fluid
 //  - Pure CSS
 //  - Easy to extend & customize
-//  
-//  Status: in development v.0.1.0
 //
+//  Version: 1.1
 // ----------------------------
 */
 
-
-@import url('../fonts/transfonter.org-20190321-003438/stylesheet.css');
 
 :root {
     --box-width: 100%;
@@ -96,17 +91,17 @@ a:hover {
 }
 
 
-/* 
-========================================== 
-Grid 
-========================================== 
-*/
-
 .item {
     background-color: var(--col-shd);
     padding: 1.2rem;
 }
 
+
+/* 
+========================================== 
+Grid 
+========================================== 
+*/
 
 .row {
     display: flex;
@@ -161,8 +156,6 @@ Grid
 .row-h-right {
     justify-content: flex-end;
 }
-
-
 
 .column {
     display: block;
