@@ -14,7 +14,7 @@
 
 <a align="center" href="https://gxvr.github.io/Nanasi-CSS/"> <img src="https://raw.githubusercontent.com/gxvr/Nanasi-CSS/master/docs/images/nanasi-logo.png" alt="Nanasi: Responsive and pure CSS" style="max-width:100%;"></a>
 
-## Progress
+## Progress 🚀
 
 New version 1.2 soon!! .
 
