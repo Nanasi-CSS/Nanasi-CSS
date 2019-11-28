@@ -30,6 +30,16 @@ New version 1.2 coming soon!! .
 
 
 ## Usage
+
+Clone this repo 
+```
+https://github.com/Nanasi-CSS/Nanasi-CSS.git
+```
+or install via NPM (Must have Node & NPM installed beforehand)
+```
+npm i nanasi-css
+```
+
 Nanasi CSS uses a 12 column flex box layout. Simply, set up your html file in the below format:
 ```
 <body>
