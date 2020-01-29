@@ -16,7 +16,7 @@
 
 ## Progress 🚀
 
-New version 1.2 coming soon!! .
+Currently in Beta
 
 ## Features
 
