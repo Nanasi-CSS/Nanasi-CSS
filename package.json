@@ -26,20 +26,19 @@
     "unpkg": "dist/nanasi.css",
     "style": "dist/nanasi.min.css",
     "keywords": [
-    "css",
-    "sass",
-    "flexbox",
-    "responsive",
-    "framework"
-  ],
+        "css",
+        "sass",
+        "flexbox",
+        "responsive",
+        "framework"
+    ],
     "author": "Geofrey Xvr",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Nanasi-CSS/Nanasi-CSS/issues"
     },
-    "homepage": "https://gxvr.github.io/Nanasi-CSS/",
     "files": [
-    "LICENSE",
-    "README.md"
-  ]
+        "LICENSE",
+        "README.md"
+    ]
 }
